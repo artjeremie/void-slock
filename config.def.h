@@ -21,5 +21,6 @@ static const char * message = "Enter password to unlock";
 static const char * text_color = "#abb2bf";
 
 /* text size (must be a valid size) */
-static const char * text_size = "9x15";
+/* static const char * text_size = "9x15"; */
+static const char * font_name = "sans-serif:size:pixelsize=24:antialias=true:autohint=true";
 
