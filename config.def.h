@@ -9,7 +9,7 @@ static const char *colorname[NUMCOLS] = {
 };
 
 /* lock screen opacity */
-static const float alpha = 0.8;
+static const float alpha = 0.6;
 
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
