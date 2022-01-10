@@ -22,5 +22,5 @@ static const char * text_color = "#abb2bf";
 
 /* text size (must be a valid size) */
 /* static const char * text_size = "9x15"; */
-static const char * font_name = "sans-serif:size:pixelsize=24:antialias=true:autohint=true";
+static const char * font_name = "Inconsolata:size=24:antialias=true:autohint=true";
 
