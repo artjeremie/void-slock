@@ -1,6 +1,9 @@
+# My slock build for Voidlinux
+---
+
 [slock](https://tools.suckless.org/slock/) simple screen locker utility for X.
 
-## Installation
+### Installation
 
 Edit config.mk to match your local setup.
 
@@ -8,6 +11,6 @@ Edit config.mk to match your local setup.
 make && sudo make install
 ```
 
-# Patches
+### Patches
 - Blurred
 - Xft font
