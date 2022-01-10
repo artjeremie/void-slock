@@ -4,12 +4,12 @@ static const char *group = "hoaxdream";
 
 static const char *colorname[NUMCOLS] = {
 	[INIT] =   "#000000",   /* after initialization */
-	[INPUT] =  "#282c34",   /* during input */
-	[FAILED] = "#be5046",   /* wrong password */
+	[INPUT] =  "#1d2021",   /* during input */
+	[FAILED] = "#cc241d",   /* wrong password */
 };
 
 /* lock screen opacity */
-static const float alpha = 0.5;
+static const float alpha = 0.8;
 
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
@@ -18,9 +18,9 @@ static const int failonclear = 1;
 static const char * message = "Enter password to unlock";
 
 /* text color */
-static const char * text_color = "#abb2bf";
+static const char * text_color = "#ebdbb2";
 
 /* text size (must be a valid size) */
 /* static const char * text_size = "9x15"; */
-static const char * font_name = "Inconsolata:size=24:antialias=true:autohint=true";
+static const char * font_name = "Inconsolata:size=28:antialias=true:autohint=true";
 
