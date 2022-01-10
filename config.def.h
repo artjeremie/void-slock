@@ -1,6 +1,6 @@
 /* user and group to drop privileges to */
-static const char *user  = "nobody";
-static const char *group = "nobody";
+static const char *user  = "hoaxdream";
+static const char *group = "hoaxdream";
 
 static const char *colorname[NUMCOLS] = {
 	[INIT] =   "#000000",   /* after initialization */
@@ -21,5 +21,5 @@ static const char * message = "Enter password to unlock";
 static const char * text_color = "#abb2bf";
 
 /* text size (must be a valid size) */
-static const char * text_size = "fixed";
+static const char * text_size = "12x22";
 

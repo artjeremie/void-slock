@@ -1,1 +1,4 @@
+explicit_bzero.o
+slock
+slock.o
 config.h
